@@ -1,0 +1,204 @@
+@import url('https://fonts.cdnfonts.com/css/bebas-neue');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+nav a, nav  a:active, nav  a:visited, nav  a:link, nav span{
+    text-decoration: none;
+    color:  white;
+    font-family: 'Lato', 'san-serif';
+    font-size: 18px;
+}
+
+nav  a:hover{
+    color:  white;
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 81%;
+    height: 33vh;
+    margin: 0 auto;
+    padding: 2%;
+    background-image: url("img/black-friday-elements-assortment.jpg");
+    background-size: 100%;
+}
+
+header h3{
+    color: white;
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    width: 55%;
+}
+
+footer{
+    width: 81%;
+    height: 20vh;
+    margin: 0.3% auto 0;
+    padding: 2%;
+    background: #210e00;
+}
+
+.wrapper{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.wrapperMain{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.buttonConteiner{
+    margin-top: 0.5%;
+    width: 20%;
+    padding: 2%;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    background-color:#eb9996;
+}
+
+.buttonConteiner a{
+    margin: 3%;
+    background-color: black;
+    border: none;
+    border-radius: 2px;
+    padding: 3%;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+#forFilter, form, .nothing, .deleteDiv{
+    margin-top: 0.5%;
+    width: 71%;
+    padding: 2%;
+    background-color: #aacbbb;
+}
+
+p{
+    font-size: 25px;
+}
+
+#forFilter select, #forFilter input{
+    display: block;
+    width: 40%;
+    margin: 1% auto;
+    padding: 1%;
+}
+
+#forFilter .smthA, .deleteDiv .smthA,.editA, .deleteA, .shureADiv button, input[type='submit'], button{
+    display: block;
+    border-radius: 2px;
+    margin: 1% auto;
+    width: 20%;
+    padding: 1%;
+    background-color: black;
+    color: white;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+button{
+    width: 400px;
+}
+
+table{
+    margin-top: 0.3%;
+    border-spacing: 1%;
+    width: 100%;
+    margin-left: 0.3%;
+}
+.deleteDiv ul{
+    font-size: 20px;
+}
+
+.deleteDiv li{
+    font-size: 18px;
+}
+
+li::marker{
+    content: '\2740';
+}
+
+
+table tr:nth-child(odd){
+    background:#aacbbb;
+}
+
+table tr:nth-child(even){
+    background:#c9e6df;
+}
+
+td, th{
+    min-height: 30px;
+    padding: 1%;
+}
+
+table .active{
+    z-index: 2;
+    box-shadow:0 0 1px 1px#8e48ee;
+}
+
+tr td:last-child{
+    width: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.editA, .deleteA{
+    width:25px;
+    height: 25px;
+    padding: 1%;
+    border-radius: 25px;
+    background-color: #8e48ee;
+    color: white;
+}
+
+.shure{
+    text-align: center;
+}
+
+.shureADiv{
+    margin: auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.deleteDiv h4{
+    text-align: center;
+    font-size: 18px;
+    line-height: 0%;
+}
+
+.deleteDiv p{
+    margin-left: 30%;
+    font-size: 18px;
+    line-height: 0%;
+}
+
+.deleteDiv h4{
+    font-size: larger;
+}
+.shureADiv a, .shureADiv button{
+    width: 40%;
+}
+
+div h3{
+    text-align: center;
+}
+
+
+

@@ -1,0 +1,5 @@
+Name: bdfggdfg, Service: Manicure, Membership: Membership, Membership Type: Regular
+Name: trtert, Service: Manicure, Membership: Membership, Membership Type: Regular
+Name: rttyrth, Service: Haircut, Membership: Membership, Membership Type: Regular
+Name: hfhfgh, Service: Pedicure, Membership: Membership, Membership Type: Regular
+Name: рапрпва, Service: Facial, Membership: Membership, Membership Type: Regular

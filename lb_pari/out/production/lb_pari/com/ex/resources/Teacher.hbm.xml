@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.ex.model.Teacher" table="Manufacturer">
+        <id name="id" column="id">
+            <generator class="identity"/>
+        </id>
+        <property name="name" column="name" not-null="true"/>
+        <property name="subjects" column="subjects" not-null="true"/>
+        <property name="weeklyClasses" column="weeklyClasses" not-null="true"/>
+        <property name="studentsPerClass" column="studentsPerClass" not-null="true"/>
+        <set name="subjects" cascade="all" inverse="true">
+            <key column="Teacher_id"/>
+            <one-to-many class="com.ex.model.Subject"/>
+        </set>
+    </class>
+</hibernate-mapping>
